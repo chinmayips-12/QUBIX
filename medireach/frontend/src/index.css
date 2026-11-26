@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{font-size:var(--fs,16px)}body{background:#F8F5EF;color:#263735}
+button,a,select,input,textarea{min-height:44px}
+:focus-visible{outline:3px solid #D93036;outline-offset:2px}
+@layer components{.btn{@apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2 font-semibold transition disabled:opacity-50}
+.btn-p{@apply btn bg-teal text-ivory hover:opacity-90}.btn-s{@apply btn bg-champagne text-charcoal}.btn-r{@apply btn bg-emergency text-white}
+.card{@apply rounded-2xl bg-white p-5 shadow-sm border border-champagne/60}.inp{@apply w-full rounded-xl border border-charcoal/30 bg-white px-3 py-2}}

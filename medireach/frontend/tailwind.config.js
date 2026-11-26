@@ -1,0 +1,1 @@
+export default{content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{colors:{teal:{DEFAULT:'#124C4A'},champagne:'#E8D5AD',ivory:'#F8F5EF',charcoal:'#263735',emergency:'#D93036'},fontFamily:{sans:['Manrope','Noto Sans Kannada','sans-serif']}}}}

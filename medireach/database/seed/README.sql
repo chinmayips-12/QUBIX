@@ -1,0 +1,1 @@
+-- Seed: see backend/src/server.js demo seed (labelled DEMO). Insert via Supabase Auth admin API when wiring Supabase.

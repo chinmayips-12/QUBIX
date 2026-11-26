@@ -1,0 +1,2 @@
+import {api} from './api';
+export const authService={login:(identifier:string,password:string)=>api('/auth/login','POST',{identifier,password}),sendOtp:(identifier:string)=>api<{mode:'demo'|'provider';message:string;expiresAt:number}>('/auth/otp/send','POST',{identifier}),register:(b:any)=>api('/auth/register','POST',b),logout:()=>api('/auth/logout','POST'),me:()=>api('/me'),updateProfile:(b:any)=>api('/me','PATCH',b)};
